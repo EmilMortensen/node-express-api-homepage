@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family:'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: red;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#fodboldklubber{
+    background: goldenrod;
+    width:100vw;
+    height: 100vh;
+    position: fixed;
+    top:91vh;
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    transition: .8s ease-in-out;
+}
+
+#fodboldklubber h2{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.intro{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    color: lightgray;
+}
+
+#fodboldklubber .content{
+    padding: 22vw;
+    background-color: rgba(20, 10, 130, 0.8);
+}
+
+.example{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+
+}
+
+#endpointH{
+    height: 3rem;
+    background: white;
+    border: 1px solid black;
+    display: grid;
+    align-content: center;
+    padding-left: 2rem;
+}
+
+#submitH{
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.json{
+    width: 100%;
+    height: 20vh;
+    background: white;
+    margin-top: .5rem;
+    border: 1px solid lightgray;
+    padding: 2rem;
+}
+
+
